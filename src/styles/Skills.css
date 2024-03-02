@@ -1,0 +1,23 @@
+
+.skills h1{
+  text-align: center;
+}
+ 
+
+  .portfolio{
+    padding: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+.youtube{
+  width: 380px;
+  height: 250px;
+  border-radius: 15px;
+}
+ 
+
+ 

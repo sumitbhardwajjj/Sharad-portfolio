@@ -1,0 +1,61 @@
+.details{
+  padding: 2rem;
+}
+
+.details h1{
+  text-align: center;
+  padding: 20px;
+  color: #faf606;
+}
+
+.details h3{
+  text-align: center;
+  padding: 20px;
+}
+
+.form{
+  display: flex ;
+  justify-content: center;
+  padding: 10px;
+}
+
+.input{
+  width: 60%;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.submit{
+  width: 150px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(255, 102, 0);
+}
+
+.submit:hover{
+  opacity: 0.8;
+}
+
+.linkedin{
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin-logo{
+  padding: 2rem;
+  height: 40px;
+}
+
+@media(max-width:750px){
+  .details{
+    padding: 1rem; 
+  }
+}

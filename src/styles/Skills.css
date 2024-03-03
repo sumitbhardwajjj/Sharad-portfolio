@@ -1,5 +1,6 @@
 
 .skills h1{
+  color: #faf606;
   text-align: center;
 }
  
@@ -15,9 +16,12 @@
 
 .youtube{
   width: 380px;
-  height: 250px;
+  height: 180px;
   border-radius: 15px;
 }
+
+
  
+
 
  

@@ -23,7 +23,30 @@
     object-fit: cover;
     
   }
-  
+
+  /* Base styles */
+#background-video {
+  width: 100%; /* Take up full width of container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  #background-video {
+    width: 100%; /* Adjust width for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #background-video {
+    width: 100%; /* Adjust width for even smaller screens */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+
+
   @media(max-width:750px){
     .about{
       padding: 1rem;

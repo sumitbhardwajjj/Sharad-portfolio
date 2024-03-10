@@ -12,6 +12,11 @@ const About = () => {
         <source src="HAND.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <h1 className="about-h1">Show Reel</h1>
+      <video id="background-video" autoPlay muted loop playsInline>
+        <source src="SHOW.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
     </section>
   );
 };

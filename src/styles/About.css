@@ -4,7 +4,7 @@
   
   .about h1{
     text-align: center;
-    padding: 10px;
+    padding: 30px 0;
     color: #faf606;
   }
   
@@ -24,6 +24,7 @@
     
   }
 
+ 
   /* Base styles */
 #background-video {
   width: 100%; /* Take up full width of container */

@@ -22,6 +22,7 @@
 }
 
 .header b {
+  font-family: cursive !important;
   color: #ff5e00;
 }
 
@@ -55,10 +56,26 @@
 }
 
 .head img {
-  max-width: 100%;
+  max-width: 400px;
   height: auto;
 }
 
+.icons-name{
+  padding: 20px;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-name img{
+  height: 50px;
+
+}
+
+.icons-name img:hover{
+  scale: 110%;
+  transition: 0.5s;
+}
 
 @media(max-width:550px){
 

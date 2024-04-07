@@ -23,7 +23,7 @@ const Home = () => {
     <button className='download'>Download CV</button>
   </div>
     <div className='head'>
-      <img src="im.jpg" alt="" />
+      <img src="phhoto.png" alt="" />
       </div>
     </div>
    

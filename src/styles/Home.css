@@ -55,9 +55,20 @@
   background-color: white;
 }
 
+.download:hover{
+  transition: 1s;
+  transform: translateY(-10px);
+}
+
+.contact:hover{
+  scale: 110%;
+  transition: 1s;
+}
+
 .head img {
   max-width: 200px;
   height: auto;
+  margin-bottom: 100px;
 }
 
 .icons-name{
